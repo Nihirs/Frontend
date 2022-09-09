@@ -1,0 +1,20 @@
+/* inside style.css */
+.highlight {
+    background-color: green;
+}
+
+.error {
+    background-color: lightcoral;
+    border: red;
+}
+h1{
+    text-align: center;
+    padding-bottom: 10%;;
+}
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 5%;
+    margin: 3%;
+}

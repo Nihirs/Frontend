@@ -1,0 +1,36 @@
+body{
+    margin: 10%;
+    color:white;
+    background-color: darkgray;
+
+}
+
+h1{
+    color:red;
+    text-align: center;
+}
+
+.page{
+    display:grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-areas: 
+    "header header"
+    "content1 sidebar"
+    "content2 sidebar";
+    grid-gap: 5%;
+    grid-auto-rows: minmax(150p, auto);
+}
+#first-post{
+    grid-area: content1;
+}
+#second-post{
+    grid-area: content2;
+}
+.header{
+    grid-area: header;
+}
+
+#author{
+    grid-area: sidebar;
+   align-items:top;
+}
